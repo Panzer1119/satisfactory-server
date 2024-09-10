@@ -1,4 +1,4 @@
-FROM steamcmd/steamcmd:ubuntu-18
+FROM steamcmd/steamcmd:ubuntu-24
 
 # hadolint ignore=DL3008
 RUN set -x \
@@ -23,8 +23,8 @@ ENV DEBUG="false" \
     MAXOBJECTS="2162688" \
     MAXPLAYERS="4" \
     MAXTICKRATE="30" \
-    PGID="1000" \
-    PUID="1000" \
+    PGID="1001" \
+    PUID="1001" \
     ROOTLESS="false" \
     SERVERGAMEPORT="7777" \
     SERVERSTREAMING="true" \
